@@ -1,0 +1,44 @@
+# Compilados
+/target/
+*.class
+
+# Logs
+*.log
+
+# Arquivos temporários do sistema
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Arquivos do Eclipse
+.classpath
+.project
+.settings/
+
+# Arquivos do IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Arquivos do NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Arquivos do VS Code
+.vscode/
+
+# Maven
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# Configs específicas
+#config.properties
+.env
